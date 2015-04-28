@@ -1,0 +1,38 @@
+#gallery {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid #000;
+  height: 400px; width: 400px;
+}
+#gallery img{
+  border: 2px solid blue;
+  display:block;
+  opacity:0;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0% 50%;
+  transform: translate(0,-50%) rotate(-90deg);
+  transition: 1s transform, 0s 1s opacity;
+}
+#gallery img.active,
+#gallery img.prev,
+#gallery img.next{
+  display:block;
+  opacity: 1;
+  transition: 1s transform, 0s 0s opacity;
+}
+#gallery img.active {
+  transform: translate(0,-50%) rotate(0deg);
+  z-index:1;
+}
+#gallery img.prev {
+  transform: translate(0,-50%) rotate(-30deg) scale(0.8);
+  z-index:1;
+}
+#gallery img.next {
+  transform: translate(0,-50%) rotate(30deg) scale(0.8);
+  z-index:1;
+}

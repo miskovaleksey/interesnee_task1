@@ -1,0 +1,26 @@
+.wj-cell {
+    border: none;
+}
+.wj-cell.wj-header {
+    background-color: #555;
+    vertical-align: middle;
+    line-height: 40px;
+    font-size: 18px;
+}
+.wj-cell.wj-alt:not(.wj-state-selected):not(.wj-state-multi-selected) {
+  background-color: white;
+}
+.wj-cell.wj-state-selected, .wj-cell.wj-state-multi-selected {
+    color: black;
+    background-color: #5bc0de;
+}
+.wj-flexgrid {
+    border: none;
+    outline: none;
+}
+.glyphicon-home {
+    color: #c0c0c0;
+}
+.ng-binding {
+    font-size: 16px;
+}

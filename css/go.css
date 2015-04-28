@@ -1,0 +1,47 @@
+/*input */
+.wj-content:not(.customEdit), div[wj-part="cells"]{
+  margin-bottom: 20px;
+}
+.go .text {
+  margin-right: 5px;
+  font-size: 16px;
+}
+.wj-content:not(.customEdit):not(.wj-dropdown-panel):not(.wj-listbox):not(.wj-flexgrid):not(.wj-calendar-outer){
+  width: 40px;
+  margin-bottom: 0;
+}
+.wj-input-group .wj-form-control.wj-numeric{
+  text-align: center;
+}
+.go .submit-go{
+  text-transform: uppercase;
+  background-color: #eee;
+  padding-top: 5px; padding-bottom: 5px;
+}
+
+/*pagination*/
+.pagination-block {
+  text-align: right;
+}
+
+.pagination-block  .text{
+  display: inline-block;
+  line-height: 34px;
+  vertical-align: middle;
+}
+.pagination-block .button-group{
+  display: inline-block;
+}
+.pagination-block .btn-default {
+  padding-top: 0; padding-bottom: 0;
+  padding-left: 8px; padding-right: 8px;
+  border-radius: 0;
+}
+.pagination-block .btn-default.active{
+  background-color: #5bc0de;
+}
+.pagination-block .action-pagination {
+  background-color: #eee;
+  padding-top: 6px; padding-bottom: 6px;
+  margin: 0px 10px;
+}
