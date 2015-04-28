@@ -12,11 +12,13 @@
 }
 .wj-input-group .wj-form-control.wj-numeric{
   text-align: center;
+  padding: 5px 8px;
 }
 .go .submit-go{
   text-transform: uppercase;
   background-color: #eee;
   padding-top: 5px; padding-bottom: 5px;
+  border-radius: 0;
 }
 
 /*pagination*/
